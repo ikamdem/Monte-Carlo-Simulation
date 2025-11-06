@@ -11,13 +11,11 @@ for i in range(n):
     if x == 4 :
         n_4 += 1 
 
-n_4
+print(n_4)
 
 p_4 = n_4 / n
-p_4 
+print(p_4)
 
-
-n = 10000
 n_3 = 0
 
 np.random.seed(2346)
@@ -27,7 +25,7 @@ for i in range(n):
     if x == 3 :
         n_3 += 1 
 
-n_3
+print(n_3)
 
 p_3 = n_3 / n 
-p_3
+print(p_3)
